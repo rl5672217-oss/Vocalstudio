@@ -1,0 +1,7 @@
+{
+  "name": "VocalStudio",
+  "description": "Professional offline AI audio stem separation and vocal removal application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
