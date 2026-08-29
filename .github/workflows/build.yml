@@ -18,6 +18,12 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
+    - name: Unzip project files if zip exists
+      run: |
+        if [ -f vocalstudio.zip ]; then
+          unzip -o vocalstudio.zip
+        fi
+
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
 
